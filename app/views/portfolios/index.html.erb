@@ -5,5 +5,5 @@
   <p><%= item.subtitle %><p>
   <p><%= item.body %><p>
   <!-- <img src="<%= item.thumb_image %>"> -->
-  <%= image_tag item.thumb_image %>
+  <%= image_tag item.thumb_image unless item.thumb_image.nil? %>
 <% end %>
