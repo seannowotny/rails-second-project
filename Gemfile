@@ -61,3 +61,5 @@ gem "debase", "~> 0.2.4"
 gem "rubocop", "~> 0.74.0"
 
 gem "solargraph", "~> 0.35.2"
+
+gem 'friendly_id', '~> 5.2.4'
